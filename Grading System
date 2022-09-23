@@ -1,0 +1,18 @@
+#Grading System 
+Input consists of a single integer which corresponds to the marks scored by the student. Print Invalid Input if it is not in the range 0 to 100.
+Refer sample input and output for formatting specifications.
+a=int(input())
+if a==100:
+    print("s")
+elif a<100 and a>=90:
+     print("A")
+elif a<90 and a>=80:
+     print("B")
+elif a<80 and a>=70:
+     print("c")
+elif a<70 and a>=60:
+     print("n")
+elif a<60 and a>=50:
+     print("f")
+else:
+     print("invalid input")
