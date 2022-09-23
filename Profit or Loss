@@ -1,0 +1,14 @@
+#Profit or Loss
+A fruitseller buys a dozen mango at Rs.X. He sells 1 mango at Rs.Y. Write a program to determine the profit or loss in Rs. for the fruitseller.
+x=float(input())
+y=float(input())
+w=x/12
+v=(y-w)*12
+print('enter the price of a dozen mangoes')
+print('enter the price at which 1 mango is being sold')
+if(w>y):
+    print(f'loss:Rs.',' %.2f'%v)
+elif(w<y):
+    print(f'profit:Rs.','%.2f'%v)
+else:
+   print(f'no profit nor loss')
